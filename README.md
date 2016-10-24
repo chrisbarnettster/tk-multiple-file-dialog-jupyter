@@ -16,4 +16,4 @@ pip install -r requirements.txt
 
 Note that many scientific Python libraries (e.g. `numpy`, `scipy`, `sklearn`, etc.) are included already because the [`base`](https://github.com/binder-project/binder-build-core/blob/master/images/base/Dockerfile) image for Binder is built on Anaconda.
 
-In this example we include the library `tk`.
+In this example we include the library tcl/tk and tkinter but there are available already so no need to include. Using 'seaborn' library for fun.
